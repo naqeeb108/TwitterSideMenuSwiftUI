@@ -14,6 +14,7 @@
 		040CADF626ECCC1900A17EE4 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CADF526ECCC1900A17EE4 /* BaseView.swift */; };
 		040CADF926ECCD3500A17EE4 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CADF826ECCD3500A17EE4 /* SideMenu.swift */; };
 		040CADFD26ECEC4500A17EE4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CADFC26ECEC4500A17EE4 /* Home.swift */; };
+		042BE93C26ED3F6700549401 /* Simulator Screen Shot - iPhone 11 Pro - 2021-09-12 at 00.19.41.png in Resources */ = {isa = PBXBuildFile; fileRef = 042BE93B26ED3F6700549401 /* Simulator Screen Shot - iPhone 11 Pro - 2021-09-12 at 00.19.41.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		040CADF526ECCC1900A17EE4 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		040CADF826ECCD3500A17EE4 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		040CADFC26ECEC4500A17EE4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		042BE93B26ED3F6700549401 /* Simulator Screen Shot - iPhone 11 Pro - 2021-09-12 at 00.19.41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 Pro - 2021-09-12 at 00.19.41.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		040CADDC26ECCA1600A17EE4 /* TwitterSideMenuSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				042BE93A26ED3F5A00549401 /* Images */,
 				040CADFB26ECEC3900A17EE4 /* Home */,
 				040CADEF26ECCBF700A17EE4 /* Base View */,
 				040CADED26ECCA2A00A17EE4 /* Side Menu */,
@@ -100,6 +103,14 @@
 				040CADFC26ECEC4500A17EE4 /* Home.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		042BE93A26ED3F5A00549401 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				042BE93B26ED3F6700549401 /* Simulator Screen Shot - iPhone 11 Pro - 2021-09-12 at 00.19.41.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042BE93C26ED3F6700549401 /* Simulator Screen Shot - iPhone 11 Pro - 2021-09-12 at 00.19.41.png in Resources */,
 				040CADE526ECCA1600A17EE4 /* Preview Assets.xcassets in Resources */,
 				040CADE226ECCA1600A17EE4 /* Assets.xcassets in Resources */,
 			);
