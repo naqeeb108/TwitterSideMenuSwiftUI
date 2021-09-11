@@ -40,7 +40,13 @@ struct Home: View {
                     .frame(width: 35, height: 35)
             )
             .padding([.leading,.trailing])
+            
             Divider()
+            
+            Spacer()
+            
+            Text("Home")
+            
             Spacer()
         }
     }
