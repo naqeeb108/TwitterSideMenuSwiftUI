@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040CADDE26ECCA1600A17EE4 /* TwitterSideMenuSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CADDD26ECCA1600A17EE4 /* TwitterSideMenuSwiftUIApp.swift */; };
+		040CADE026ECCA1600A17EE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CADDF26ECCA1600A17EE4 /* ContentView.swift */; };
+		040CADE226ECCA1600A17EE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040CADE126ECCA1600A17EE4 /* Assets.xcassets */; };
+		040CADE526ECCA1600A17EE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040CADE426ECCA1600A17EE4 /* Preview Assets.xcassets */; };
+		040CADF626ECCC1900A17EE4 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CADF526ECCC1900A17EE4 /* BaseView.swift */; };
+		040CADF926ECCD3500A17EE4 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CADF826ECCD3500A17EE4 /* SideMenu.swift */; };
+		040CADFD26ECEC4500A17EE4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CADFC26ECEC4500A17EE4 /* Home.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040CADDA26ECCA1600A17EE4 /* TwitterSideMenuSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterSideMenuSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040CADDD26ECCA1600A17EE4 /* TwitterSideMenuSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterSideMenuSwiftUIApp.swift; sourceTree = "<group>"; };
+		040CADDF26ECCA1600A17EE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		040CADE126ECCA1600A17EE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040CADE426ECCA1600A17EE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		040CADE626ECCA1600A17EE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040CADF526ECCC1900A17EE4 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		040CADF826ECCD3500A17EE4 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		040CADFC26ECEC4500A17EE4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040CADD726ECCA1600A17EE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040CADD126ECCA1500A17EE4 = {
+			isa = PBXGroup;
+			children = (
+				040CADDC26ECCA1600A17EE4 /* TwitterSideMenuSwiftUI */,
+				040CADDB26ECCA1600A17EE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		040CADDB26ECCA1600A17EE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040CADDA26ECCA1600A17EE4 /* TwitterSideMenuSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040CADDC26ECCA1600A17EE4 /* TwitterSideMenuSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				040CADFB26ECEC3900A17EE4 /* Home */,
+				040CADEF26ECCBF700A17EE4 /* Base View */,
+				040CADED26ECCA2A00A17EE4 /* Side Menu */,
+				040CADDD26ECCA1600A17EE4 /* TwitterSideMenuSwiftUIApp.swift */,
+				040CADDF26ECCA1600A17EE4 /* ContentView.swift */,
+				040CADE126ECCA1600A17EE4 /* Assets.xcassets */,
+				040CADE626ECCA1600A17EE4 /* Info.plist */,
+				040CADE326ECCA1600A17EE4 /* Preview Content */,
+			);
+			path = TwitterSideMenuSwiftUI;
+			sourceTree = "<group>";
+		};
+		040CADE326ECCA1600A17EE4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				040CADE426ECCA1600A17EE4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		040CADED26ECCA2A00A17EE4 /* Side Menu */ = {
+			isa = PBXGroup;
+			children = (
+				040CADF826ECCD3500A17EE4 /* SideMenu.swift */,
+			);
+			path = "Side Menu";
+			sourceTree = "<group>";
+		};
+		040CADEF26ECCBF700A17EE4 /* Base View */ = {
+			isa = PBXGroup;
+			children = (
+				040CADF526ECCC1900A17EE4 /* BaseView.swift */,
+			);
+			path = "Base View";
+			sourceTree = "<group>";
+		};
+		040CADFB26ECEC3900A17EE4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				040CADFC26ECEC4500A17EE4 /* Home.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040CADD926ECCA1600A17EE4 /* TwitterSideMenuSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040CADE926ECCA1600A17EE4 /* Build configuration list for PBXNativeTarget "TwitterSideMenuSwiftUI" */;
+			buildPhases = (
+				040CADD626ECCA1600A17EE4 /* Sources */,
+				040CADD726ECCA1600A17EE4 /* Frameworks */,
+				040CADD826ECCA1600A17EE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwitterSideMenuSwiftUI;
+			productName = TwitterSideMenuSwiftUI;
+			productReference = 040CADDA26ECCA1600A17EE4 /* TwitterSideMenuSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040CADD226ECCA1500A17EE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					040CADD926ECCA1600A17EE4 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 040CADD526ECCA1500A17EE4 /* Build configuration list for PBXProject "TwitterSideMenuSwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040CADD126ECCA1500A17EE4;
+			productRefGroup = 040CADDB26ECCA1600A17EE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040CADD926ECCA1600A17EE4 /* TwitterSideMenuSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040CADD826ECCA1600A17EE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040CADE526ECCA1600A17EE4 /* Preview Assets.xcassets in Resources */,
+				040CADE226ECCA1600A17EE4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040CADD626ECCA1600A17EE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040CADF626ECCC1900A17EE4 /* BaseView.swift in Sources */,
+				040CADE026ECCA1600A17EE4 /* ContentView.swift in Sources */,
+				040CADFD26ECEC4500A17EE4 /* Home.swift in Sources */,
+				040CADDE26ECCA1600A17EE4 /* TwitterSideMenuSwiftUIApp.swift in Sources */,
+				040CADF926ECCD3500A17EE4 /* SideMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		040CADE726ECCA1600A17EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		040CADE826ECCA1600A17EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040CADEA26ECCA1600A17EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TwitterSideMenuSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TwitterSideMenuSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myProject.TwitterSideMenuSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		040CADEB26ECCA1600A17EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TwitterSideMenuSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TwitterSideMenuSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myProject.TwitterSideMenuSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040CADD526ECCA1500A17EE4 /* Build configuration list for PBXProject "TwitterSideMenuSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040CADE726ECCA1600A17EE4 /* Debug */,
+				040CADE826ECCA1600A17EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040CADE926ECCA1600A17EE4 /* Build configuration list for PBXNativeTarget "TwitterSideMenuSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040CADEA26ECCA1600A17EE4 /* Debug */,
+				040CADEB26ECCA1600A17EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040CADD226ECCA1500A17EE4 /* Project object */;
+}
